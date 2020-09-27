@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="8dp"
+        android:padding="2dp"
+        app:cardElevation="4dp"
+        android:layout_margin="2dp"
+        app:cardBackgroundColor="@color/skyblue1"
+        app:cardUseCompatPadding="true"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:padding="4dp"
+            android:id="@+id/rlmain"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="@android:color/white"
+                android:text="name"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:padding="4dp"
+                android:visibility="gone"
+                android:id="@+id/name"
+                android:background="@color/colorAccent"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.app.feish.application.customfonts.MyRegulerText
+                    android:layout_width="wrap_content"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/likeblack"
+                    android:layout_height="wrap_content"
+                    android:text="Pregnancy Time: "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/pregnancytime"
+                    android:text=""/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+                    <com.app.feish.application.customfonts.MyRegulerText
+                        android:layout_width="wrap_content"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/likeblack"
+                        android:layout_height="wrap_content"
+                        android:text="Start Date: "/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/background_dark"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/sdatepregnancy"
+                        android:text="120"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal">
+                    <com.app.feish.application.customfonts.MyRegulerText
+                        android:layout_width="wrap_content"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/likeblack"
+                        android:layout_height="wrap_content"
+                        android:text="End Date: "/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/background_dark"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/edatepregnancy"
+                        android:text="120"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+                    <com.app.feish.application.customfonts.MyRegulerText
+                        android:layout_width="wrap_content"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/likeblack"
+                        android:layout_height="wrap_content"
+                        android:text="Month: "/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/background_dark"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/month"
+                        android:text=""/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal">
+                    <com.app.feish.application.customfonts.MyRegulerText
+                        android:layout_width="wrap_content"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/likeblack"
+                        android:layout_height="wrap_content"
+                        android:text="Week: "/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/background_dark"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/week"
+                        android:text="3"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+                <com.app.feish.application.customfonts.MyRegulerText
+                    android:layout_width="wrap_content"
+                    android:textSize="16dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/likeblack"
+                    android:layout_height="wrap_content"
+                    android:text="Complications: "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/background_dark"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/pregnancycomplication"
+                    android:text=""/>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/treat"
+                android:visibility="gone"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <com.app.feish.application.customfonts.MyRegulerText
+                        android:layout_width="wrap_content"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:id="@+id/txt"
+                        android:textColor="@android:color/black"
+                        android:layout_height="wrap_content"
+                        android:text="Is Cured:"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/txtrunn"
+                        android:text="Blood Pressure (mm/hg)"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/llisrun"
+                    android:orientation="horizontal">
+                    <com.app.feish.application.customfonts.MyRegulerText
+                        android:layout_width="wrap_content"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:layout_height="wrap_content"
+                        android:text="Is Running: "/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/txtiscu"
+                        android:text="Blood Pressure (mm/hg)"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

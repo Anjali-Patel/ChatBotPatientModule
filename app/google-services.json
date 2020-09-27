@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "579387102726",
+    "firebase_url": "https://feish-225518.firebaseio.com",
+    "project_id": "feish-225518",
+    "storage_bucket": "feish-225518.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579387102726:android:1c11009de65b77550c1587",
+        "android_client_info": {
+          "package_name": "com.app.feish.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579387102726-068t21hcqc98uh4jsbobkrsbugur85ua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.feish.application",
+            "certificate_hash": "784db22baa63f7a29c51ae3e2d7c6cc7127c34d0"
+          }
+        },
+        {
+          "client_id": "579387102726-dke3024lsbvqafob9i38rf7bbsqo5pv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqt0mNxQM94b9Z9ImfIZnigRsbtiqH2gc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579387102726-dke3024lsbvqafob9i38rf7bbsqo5pv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

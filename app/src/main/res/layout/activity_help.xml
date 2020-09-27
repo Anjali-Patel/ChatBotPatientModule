@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:background="@color/transparent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Patient.Help"
+    android:orientation="vertical"
+  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="4dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="14">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:scaleType="fitXY"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/my1"
+                android:adjustViewBounds="true"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/healthhelp"
+                android:layout_marginTop="30dp"
+                android:textColor="@android:color/black"
+                android:text="Health Profile"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/my2"
+                android:adjustViewBounds="true"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/vitalhelp"
+                android:textColor="@android:color/black"
+                android:text="Vital Signs"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/my3"
+                android:adjustViewBounds="true"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/scanreporthelp"
+                android:textColor="@android:color/black"
+                android:text="Visit/Report"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/my4"
+                android:adjustViewBounds="true"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/labresulthelp"
+                android:textColor="@android:color/black"
+                android:text="Lab Result"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/my5"
+                android:adjustViewBounds="true"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textColor="@android:color/black"
+                android:id="@+id/medicalhistoryhelp"
+                android:text="Medical History"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/my6"
+                android:adjustViewBounds="true"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textColor="@android:color/black"
+                android:id="@+id/familyhistoryhelp"
+                android:text="Family History"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/my7"
+                android:adjustViewBounds="true"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textColor="@android:color/black"
+                android:id="@+id/diethelp"
+                android:text="Diet Plan"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/my8"
+                android:adjustViewBounds="true"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/treatmenthelp"
+                android:textColor="@android:color/black"
+                android:text="TreatMent"/>
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/my9"
+                android:adjustViewBounds="true"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/reaminderhelp"
+                android:textColor="@android:color/black"
+                android:text="Reaminder"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/my10"
+                android:adjustViewBounds="true"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textColor="@android:color/black"
+                android:id="@+id/messagehelp"
+                android:text="Messages"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/my11"
+                android:adjustViewBounds="true"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textColor="@android:color/black"
+                android:id="@+id/patientlikemehelp"
+                android:text="Patient Like Me"/>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/my14"
+                android:adjustViewBounds="true"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textColor="@android:color/black"
+                android:id="@+id/blooddonorhelp"
+                android:text="Blood Donor"/>
+
+        </LinearLayout>
+
+               <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/my12"
+                android:adjustViewBounds="true"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textColor="@android:color/black"
+                android:id="@+id/shehelp"
+                android:text="She"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/my13"
+                android:adjustViewBounds="true"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textColor="@android:color/black"
+                android:id="@+id/bothelp"
+                android:text="Nursing Bot"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

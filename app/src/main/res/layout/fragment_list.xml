@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+    <LinearLayout
+        android:id="@+id/linear_patient"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="40dp"
+            android:background="@color/colorAccent"
+            android:src="@drawable/patienr"
+            android:tint="@color/white"
+            android:padding="8dp"
+            android:layout_height="40dp" />
+        <com.app.feish.application.customfonts.MyEditText
+            android:id="@+id/search_family"
+            android:hint="Search from name / condition ...."
+            android:layout_width="match_parent"
+            android:padding="4dp"
+            android:textColorHint="@color/darkblue"
+            android:background="@color/transparent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:layout_below="@+id/linear_patient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list"/>
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/progressBar"/>
+
+
+
+</RelativeLayout>
